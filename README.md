@@ -1,7 +1,7 @@
 # SmartRange
 SmartRange returns an array of numbers within a given range.
 # Usage
-**From NPM***
+**From NPM**
 ```javascript
 const SmartRange = require("smartrange");
 ```
