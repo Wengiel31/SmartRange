@@ -1,6 +1,6 @@
 {
   "name": "smartrange",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Removed 65536 limit, added changelog to README, announced function support",
   "main": "index.js",
   "scripts": {
