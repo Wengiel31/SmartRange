@@ -17,3 +17,7 @@ const myRange = range.createNewRange(start, end);
 console.log(myRange);
 // Expected: [10, 11, 12, ..., 998, 999, 1000]
 ```
+# Changelog
+**1.0.2** - Removed 65536 limit, added changelog to README, announced function support
+**1.0.1** - Minor README changes
+**1.0.0** - Initial release

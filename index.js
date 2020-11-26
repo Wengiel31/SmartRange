@@ -13,10 +13,6 @@ class SmartRange {
             throw new RangeError(`RangeError [ERR_OUT_OF_RANGE]: The "start" argument must be >= 0. Received ${start}`);
         } else if (end < 0) {
             throw new RangeError(`RangeError [ERR_OUT_OF_RANGE]: The "end" argument must be >= 0. Received ${end}`);
-        } else if (start > 65536) {
-            throw new RangeError(`RangeError [ERR_OUT_OF_RANGE]: The "start" argument must be <= 65536. Received ${start}`);
-        } else if (end > 65536) {
-            throw new RangeError(`RangeError [ERR_OUT_OF_RANGE]: The "end" argument must be <= 65536. Received ${start}`);
         } else if (end < start) {
             throw new RangeError(`RangeError [ERR_OUT_OF_RANGE]: The "end" argument must be > then the "start" argument.`);
         } else {
@@ -24,6 +20,7 @@ class SmartRange {
             for (let i = start; i <= end; i++) {
                 newRange.push(i);
             }
+            console.log("NOTICE: Using SmartRange as a class is not going to be supported and is going to removed in the foreseeable future");
             return newRange;
         }
     }
