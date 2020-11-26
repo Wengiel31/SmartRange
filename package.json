@@ -1,6 +1,6 @@
 {
   "name": "smartrange",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "SmartRange returns an array of numbers within a given range.",
   "main": "index.js",
   "scripts": {
